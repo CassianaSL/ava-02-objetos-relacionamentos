@@ -2,6 +2,8 @@
 
 Prazo: 2016-09-09 Peso: 3.0 pts
 
+Classroom da atividade <https://classroom.github.com/a/cn5i1oCo>
+
 ## Regras & Restrições
 
 - A _webapp_ deve declarar os `.js` como módulos (usar _export_ e _import_);
