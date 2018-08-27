@@ -1,20 +1,3 @@
-# Programação Orientada a Objetos: Relacionamentos
-
-Prazo: 2016-09-09 Peso: 3.0 pts
-
-## Regras & Restrições
-
-- A _webapp_ deve declarar os `.js` como módulos (usar _export_ e _import_);
-- Cada classe ou objeto devem ser definidos em arquivos individuais;
-- Erros do _linter_ são penalizados em `-0.2` por tipo de erro;
-- Os Casos de Teste não podem ser alterados (se um erro no teste for encontrado, informe o professor);
-- Outros casos de teste semelhantes, que testam a mesma funcionalidade, podem ser incluídos para a correção, evitando que algum método seja implementado como constante apenas para passar no teste e não para cumprir a funcionalidade, ex: `count { return 0; }`.
-
-### Fellowship of The Ring 2.0
-
-Implementar a _Sociedade do Anel_ conforme os casos de teste a seguir.
-
-```javascript
 // main.js
 // Initializing People
 const Gandalf = new Wizard('Gandalf');
@@ -169,18 +152,3 @@ console.assert(FellowshipOfTheRing.count === 0);
 console.assert(FellowshipOfTheRing.hasNoMembers === true);
 console.assert(FellowshipOfTheRing.member(1) === undefined);
 console.assert(FellowshipOfTheRing.lastMember === undefined);
-```
-
-
-### Internet Movie DataBase 1.0
-
-Considere o seguinte Diagrama de Classes:
-
-![Diagrama de Classes IMDB Tabajara](https://raw.githubusercontent.com/dbo-2018/ava-02-objetos-relacionamentos/master/diagrama.jpg)
-
-Considere um método para contar quantos artistas estão no Filme, escolha uma classe para colocá-lo. Adicione mais duas classes, que constem atributos e métodos e relacione-as com o que já existe. Implemente e escreva testes.
-
-
-### Tema Livre 1.0
-
-Desenhar um diagrama de classes e implementar. Deve ter pelo menos 4 classes. Todas devem ter atributos e métodos e se relacionarem de alguma maneira. Escreva testes. Ah, em inglês por favor.
